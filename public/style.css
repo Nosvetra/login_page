@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(206, 212, 203);
+}
+.login_form {
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  height: 600px;
+  width: 500px;
+  background-color: rgb(100, 172, 153);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  flex-direction: column;
+}
+form input {
+  background-color: rgb(218, 228, 217);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  height: 30px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(43, 100, 115);
+}
+.submit_btn {
+  background-color: rgb(206, 212, 203);
+  font-size: 1.3rem;
+  margin-top: 10px;
+  height: 50px;
+}
+
+.itm1 {
+  align-self: inherit;
+  margin-left: -140px;
+  font-size: 2rem;
+}
+.itm1 > h1,
+p {
+  margin: 0;
+  color: rgb(206, 212, 203);
+}
+.itm1 > p {
+  font-size: 1rem;
+}
+
+/* the main paige */
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content > h1 {
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.divites {
+  display: flex;
+  gap: 20px;
+}
+.divites > button {
+  border-radius: 0;
+  font-size: 2rem;
+  padding: 10px;
+  background-color: rgb(100, 172, 153);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
